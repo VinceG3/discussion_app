@@ -1,0 +1,7 @@
+20180427212903
+
+scaffold topic name:string
+scaffold aspect name:string topic:belongs_to
+scaffold post contents:text discussion:belongs_to user:belongs_to
+scaffold discussion name:string aspect:belongs_to link:string
+

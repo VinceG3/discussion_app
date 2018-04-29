@@ -1,0 +1,5 @@
+<% if @user.id %>
+	<a href='/users/<%= @user.id %>'><%= @user.name %></a>
+<% else %>
+	<a href='/login'>Log in</a>
+<% end %>
